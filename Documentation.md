@@ -1,4 +1,4 @@
-<div align="center">
+![pic31](https://github.com/Rikeopi/Raspberry-Pi-Documentation/assets/145620113/043d27f2-570c-4f20-80f5-bc3d118e6472)<div align="center">
    
 >### FINAL PROJECT IN INFORMATION ASSURANCE AND SECURITY
 >Mirandilla, Johnlery | Morata, Marri Grace | Nobleza, Uriel Miguel | Pizzaro, Jesrel
@@ -72,8 +72,7 @@
 2. Connecting to Raspberry Pi via SSH using the terminal
 
    1. Open _terminal_ and enter the following commands consecutively:
-
-      **_ssh \<username\>@\<hostname\>_**
+      **_ssh <username>@<hostname>_**
 
       ![img_12](images/img12.png)
 
@@ -94,7 +93,6 @@
 
 4. Deploying LAMP (Linux Apache MySQL PHP) Stack in raspberry Pi
    1. In the terminal, enter the following commands:
-
       **_sudo apt install apache2_**
 
       ![img_15](images/img15.png)
@@ -125,13 +123,13 @@
 
       _(Image credit: CS3B Group 11)_
       
-   3. You will be prompted to choose a web server. Select **apache2** using the spacebar, then press "Tab" to highlight **OK** and press Enter to continue.
+   2. You will be prompted to choose a web server. Select **apache2** using the spacebar, then press "Tab" to highlight **OK** and press Enter to continue.
       
       ![img_20](images/img20.png)
       
       _(Image credit: CS3B Group 11)_
       
-   4. Finally, enter this command on the terminal and wait until the process is complete: **_sudo apt install phpmyadmin_**
+   3. Finally, enter this command on the terminal and wait until the process is complete: **_sudo apt install phpmyadmin_**
 
       ![img_21](images/img21.png)
       
@@ -139,12 +137,38 @@
    
    1. Download and install RealVNC Viewer through [here](https://www.realvnc.com/en/connect/download/viewer/).
       
-      ![img_22](images/img22.png)
+      ![img_22](images/img22.png
+   
+      Install the Download file, after installing, type this in terminal "sudo raspi-config".
       
+       ![pic23](images/img23.png
+
+        And then, select "Interface Options", and click enter.
+      
+       ![pic24](images/img24.png 
+
       _(Image credit: CS3B Group 11)_
 
-   2. 
-   
 
+   2. And then, select "Interface Options", and click enter.
+      
+       ![pic25](images/img25.png
+
+   3. Enable the VNC, click enter.
+
+      ![pic26](images/img26.png
+
+   4.Open the RealVNC Viewer app and type the ip address of your raspberry
+
+      ![pic27](images/img27.png
+
+   5. Enter the username and the password and click "Ok"
+
+       ![pic28](images/img28.png
+      
+   7. Now your Raspberry setup is done
+   
+      ![pic29](images/img29.png
+      
 
 (_**NOTE:** Images are not ours since we were able to perform the task before the announcement that there is a need for a documentation. Appropriate credits were noted after each photo. Thank you!_)
