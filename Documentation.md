@@ -1,7 +1,6 @@
 <div align="center">
    
 >### FINAL PROJECT IN INFORMATION ASSURANCE AND SECURITY
->Mirandilla, Johnlery | Morata, Marri Grace | Nobleza, Uriel Miguel | Pizzaro, Jesrel
 # RASPBERRY PI INSTALLATION GUIDE
 
 
